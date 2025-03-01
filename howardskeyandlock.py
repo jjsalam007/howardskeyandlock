@@ -177,7 +177,7 @@ for d in os.listdir('locksmith'):
                     try:
                         search_categories = open(f'locksmith/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391').replace('(888) 498-939', '(888) 498-9391').replace('tel:888498939', 'tel:8884989391')
+                        op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391')
          
                         
                         fp = open(f'locksmith/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('locksmith'):
 for d in os.listdir('locksmith'):
     try:
         search_categories = open(f'locksmith/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391').replace('(888) 498-939', '(888) 498-9391').replace('tel:888498939', 'tel:8884989391')
+        op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391')
         # if 'locksmith' in str(d):
         #     shutil.rmtree(f'locksmith/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('locksmith'):
 try:
     search_categories = open(f'locksmith/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391').replace('(888) 498-939', '(888) 498-9391').replace('tel:888498939', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391')
     
     fp = open(f'locksmith/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,7 +227,7 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391').replace('(888) 498-939', '(888) 498-9391').replace('tel:888498939', 'tel:8884989391')
+    op= search_categories.replace("﻿", '').replace('https://howardskeyandlock.com/', 'https://howardskeyandlock.netlify.app/').replace('(206) 647-6559', '(888) 498-9391').replace('tel:2066476559', 'tel:8884989391')
     
     fp = open(f'index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
